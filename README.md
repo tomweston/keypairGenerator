@@ -1,6 +1,6 @@
-# Golang SSH Key Generator with S3 Backup
+# Golang SSH KeyPair Generator with S3 Backup
 
-Keygen generates AES256 private and public key pairs and uploads the keypair to a desired S3 bucket.
+Keygen generates AES256 private and public keypairs and uploads the private key to a desired S3 bucket.
 
 ## Usage
 
