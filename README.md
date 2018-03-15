@@ -2,9 +2,9 @@
 
 Keygen generates AES256 private and public key pairs and uploads the private key to a desired S3 bucket.
 
-## Usage
+# Usage
 
-**Required packages:**
+## Required packages:
 
 `go get github.com/aws/aws-sdk-go/aws`
 
@@ -14,7 +14,7 @@ Keygen generates AES256 private and public key pairs and uploads the private key
 
 `go get golang.org/x/crypto/ssh`
 
-**Compile:**
+## Compile:
 
 **Windows:**  `GOOS=windows GOARCH=386 go build -o keypair_generator.exe keypair_generator.go`
 
