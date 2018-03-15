@@ -4,18 +4,23 @@ Keygen generates AES256 private and public key pairs and uploads the private key
 
 ## Usage
 
-*Required packages:*
+**Required packages:**
 
 `go get github.com/aws/aws-sdk-go/aws`
+
 `go get github.com/aws/aws-sdk-go/aws/session`
+
 `go get github.com/aws/aws-sdk-go/service/s3`
+
 `go get golang.org/x/crypto/ssh`
 
-*Compile:*
+**Compile:**
 
-Windows:  `GOOS=windows GOARCH=386 go build -o keypair_generator.exe keypair_generator.go`
-Linux:    `GOOS=linux GOARCH=386 go build -o keypair_generator.exe keypair_generator.go`
-MACOS:    `GOOS=darwin GOARCH=386 go build -o keypair_generator.exe keypair_generator.go`
+**Windows:**  `GOOS=windows GOARCH=386 go build -o keypair_generator.exe keypair_generator.go`
+
+**Linux:**    `GOOS=linux GOARCH=386 go build -o keypair_generator.exe keypair_generator.go`
+
+**MacOS:**    `GOOS=darwin GOARCH=386 go build -o keypair_generator.exe keypair_generator.go`
 
 # Important: 
 
